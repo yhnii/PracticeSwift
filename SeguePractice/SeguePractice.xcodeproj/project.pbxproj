@@ -12,8 +12,8 @@
 		CDBAA0A2224A159E00C99BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBAA0A0224A159E00C99BC4 /* Main.storyboard */; };
 		CDBAA0A4224A159F00C99BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDBAA0A3224A159F00C99BC4 /* Assets.xcassets */; };
 		CDBAA0A7224A159F00C99BC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBAA0A5224A159F00C99BC4 /* LaunchScreen.storyboard */; };
-		CDBAA0AF224A17C500C99BC4 /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBAA0AE224A17C500C99BC4 /* SwitchViewController.swift */; };
-		CDBAA0B1224A181200C99BC4 /* SegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBAA0B0224A181200C99BC4 /* SegViewController.swift */; };
+		CDBAA0B3224A1D2800C99BC4 /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBAA0B2224A1D2800C99BC4 /* SwitchViewController.swift */; };
+		CDBAA0B5224A1D5B00C99BC4 /* SegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBAA0B4224A1D5B00C99BC4 /* SegViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		CDBAA0A3224A159F00C99BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDBAA0A6224A159F00C99BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDBAA0A8224A159F00C99BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDBAA0AE224A17C500C99BC4 /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
-		CDBAA0B0224A181200C99BC4 /* SegViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegViewController.swift; sourceTree = "<group>"; };
+		CDBAA0B2224A1D2800C99BC4 /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
+		CDBAA0B4224A1D5B00C99BC4 /* SegViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 			children = (
 				CDBAA09C224A159E00C99BC4 /* AppDelegate.swift */,
 				CDBAA09E224A159E00C99BC4 /* ViewController.swift */,
-				CDBAA0AE224A17C500C99BC4 /* SwitchViewController.swift */,
-				CDBAA0B0224A181200C99BC4 /* SegViewController.swift */,
+				CDBAA0B2224A1D2800C99BC4 /* SwitchViewController.swift */,
+				CDBAA0B4224A1D5B00C99BC4 /* SegViewController.swift */,
 				CDBAA0A0224A159E00C99BC4 /* Main.storyboard */,
 				CDBAA0A3224A159F00C99BC4 /* Assets.xcassets */,
 				CDBAA0A5224A159F00C99BC4 /* LaunchScreen.storyboard */,
@@ -141,8 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDBAA0B1224A181200C99BC4 /* SegViewController.swift in Sources */,
-				CDBAA0AF224A17C500C99BC4 /* SwitchViewController.swift in Sources */,
+				CDBAA0B5224A1D5B00C99BC4 /* SegViewController.swift in Sources */,
+				CDBAA0B3224A1D2800C99BC4 /* SwitchViewController.swift in Sources */,
 				CDBAA09F224A159E00C99BC4 /* ViewController.swift in Sources */,
 				CDBAA09D224A159E00C99BC4 /* AppDelegate.swift in Sources */,
 			);

@@ -9,11 +9,19 @@
 import UIKit
 
 class SegViewController: UIViewController {
-
+    @IBOutlet var leftRightViewController: UISegmentedControl!
+    @IBOutlet var displayLabel: UILabel!
+    var selectedSegmentIndex: Int!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        var makeString = leftRightViewController.titleForSegment(at: selectedSegmentIndex)!
+        
+        displayLabel.text = makeString
+        leftRightViewController.selectedSegmentIndex = selectedSegmentIndex
     }
     
 
