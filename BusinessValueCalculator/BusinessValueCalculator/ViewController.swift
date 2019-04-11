@@ -10,12 +10,10 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate, UIPickerViewDelegate, UIPickerViewDataSource {
 
-    @IBOutlet var companyNameLabel: UILabel!
-    @IBOutlet var listedStatusLabel: UILabel!
     @IBOutlet var inputTextField: UITextField!
     @IBOutlet var pickerListedStatus: UIPickerView!
    
-    let listedStatus: [String] = ["상장 기업", "비상장 기업"]
+    let listedStatus: [String] = ["상장", "비상장"]
     
     
     
@@ -25,16 +23,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIPickerViewDelegat
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    // button for searching company name
-    @IBAction func buttonCompanyName(_ sender: UIButton) {
-        companyNameLabel.text = inputTextField.text
-    }
-    
-    // button for get value by picker
-    @IBAction func getValue() {
-        let status: String = listedStatus[self.pickerListedStatus.selectedRow(inComponent: 0)]
-        listedStatusLabel.text = status
-    }
+
     
     // option for textField
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
@@ -56,10 +45,24 @@ class ViewController: UIViewController, UITextFieldDelegate, UIPickerViewDelegat
     }
     
     override func prepare(for segue:UIStoryboardSegue, sender:Any?){
-    let destination = segue.destination
-    let button = sender as! UIButton
-        destination.title = button.titleLabel?.text
-        
+        if segue.identifier == "toResultView"{
+            let destination = segue.destination as! ResultViewController
+            let button = sender as! UIButton
+            let buttonTitle: String! = button.titleLabel?.text
+            let company: String! = inputTextField.text
+            let index = pickerListedStatus.selectedRow(inComponent: 0)
+            
+            if index == 0 {
+                destination.pickerInfo = index
+                destination.title = buttonTitle
+                destination.info = company
+            }else{
+                destination.pickerInfo = index
+                destination.title = buttonTitle
+                destination.info = "서비스 개발중입니다"
+            }
+
+        }
     }
 
 
