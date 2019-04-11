@@ -7,46 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CDF3FF35225C8EE900781D87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF3FF34225C8EE900781D87 /* AppDelegate.swift */; };
-		CDF3FF37225C8EE900781D87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF3FF36225C8EE900781D87 /* ViewController.swift */; };
-		CDF3FF3A225C8EE900781D87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF3FF38225C8EE900781D87 /* Main.storyboard */; };
-		CDF3FF3C225C8EEB00781D87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF3FF3B225C8EEB00781D87 /* Assets.xcassets */; };
-		CDF3FF3F225C8EEB00781D87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF3FF3D225C8EEB00781D87 /* LaunchScreen.storyboard */; };
-		CDF3FF4A225C8EEB00781D87 /* Lab05Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF3FF49225C8EEB00781D87 /* Lab05Tests.swift */; };
+		CDCF7AA2225F141300802BCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCF7AA1225F141300802BCD /* AppDelegate.swift */; };
+		CDCF7AA4225F141300802BCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCF7AA3225F141300802BCD /* ViewController.swift */; };
+		CDCF7AA7225F141300802BCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCF7AA5225F141300802BCD /* Main.storyboard */; };
+		CDCF7AA9225F141400802BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDCF7AA8225F141400802BCD /* Assets.xcassets */; };
+		CDCF7AAC225F141400802BCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCF7AAA225F141400802BCD /* LaunchScreen.storyboard */; };
+		CDCF7AB7225F141500802BCD /* BusinessValueCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCF7AB6225F141500802BCD /* BusinessValueCalculatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CDF3FF46225C8EEB00781D87 /* PBXContainerItemProxy */ = {
+		CDCF7AB3225F141500802BCD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CDF3FF29225C8EE900781D87 /* Project object */;
+			containerPortal = CDCF7A96225F141300802BCD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CDF3FF30225C8EE900781D87;
-			remoteInfo = Lab05;
+			remoteGlobalIDString = CDCF7A9D225F141300802BCD;
+			remoteInfo = BusinessValueCalculator;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CDF3FF31225C8EE900781D87 /* Lab05.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab05.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDF3FF34225C8EE900781D87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDF3FF36225C8EE900781D87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CDF3FF39225C8EE900781D87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CDF3FF3B225C8EEB00781D87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CDF3FF3E225C8EEB00781D87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CDF3FF40225C8EEB00781D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDF3FF45225C8EEB00781D87 /* Lab05Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab05Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDF3FF49225C8EEB00781D87 /* Lab05Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab05Tests.swift; sourceTree = "<group>"; };
-		CDF3FF4B225C8EEB00781D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCF7A9E225F141300802BCD /* BusinessValueCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusinessValueCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDCF7AA1225F141300802BCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDCF7AA3225F141300802BCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDCF7AA6225F141300802BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDCF7AA8225F141400802BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDCF7AAB225F141400802BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDCF7AAD225F141400802BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCF7AB2225F141500802BCD /* BusinessValueCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessValueCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDCF7AB6225F141500802BCD /* BusinessValueCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessValueCalculatorTests.swift; sourceTree = "<group>"; };
+		CDCF7AB8225F141500802BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CDF3FF2E225C8EE900781D87 /* Frameworks */ = {
+		CDCF7A9B225F141300802BCD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDF3FF42225C8EEB00781D87 /* Frameworks */ = {
+		CDCF7AAF225F141400802BCD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,104 +56,104 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CDF3FF28225C8EE900781D87 = {
+		CDCF7A95225F141300802BCD = {
 			isa = PBXGroup;
 			children = (
-				CDF3FF33225C8EE900781D87 /* Lab05 */,
-				CDF3FF48225C8EEB00781D87 /* Lab05Tests */,
-				CDF3FF32225C8EE900781D87 /* Products */,
+				CDCF7AA0225F141300802BCD /* BusinessValueCalculator */,
+				CDCF7AB5225F141500802BCD /* BusinessValueCalculatorTests */,
+				CDCF7A9F225F141300802BCD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CDF3FF32225C8EE900781D87 /* Products */ = {
+		CDCF7A9F225F141300802BCD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CDF3FF31225C8EE900781D87 /* Lab05.app */,
-				CDF3FF45225C8EEB00781D87 /* Lab05Tests.xctest */,
+				CDCF7A9E225F141300802BCD /* BusinessValueCalculator.app */,
+				CDCF7AB2225F141500802BCD /* BusinessValueCalculatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CDF3FF33225C8EE900781D87 /* Lab05 */ = {
+		CDCF7AA0225F141300802BCD /* BusinessValueCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				CDF3FF34225C8EE900781D87 /* AppDelegate.swift */,
-				CDF3FF36225C8EE900781D87 /* ViewController.swift */,
-				CDF3FF38225C8EE900781D87 /* Main.storyboard */,
-				CDF3FF3B225C8EEB00781D87 /* Assets.xcassets */,
-				CDF3FF3D225C8EEB00781D87 /* LaunchScreen.storyboard */,
-				CDF3FF40225C8EEB00781D87 /* Info.plist */,
+				CDCF7AA1225F141300802BCD /* AppDelegate.swift */,
+				CDCF7AA3225F141300802BCD /* ViewController.swift */,
+				CDCF7AA5225F141300802BCD /* Main.storyboard */,
+				CDCF7AA8225F141400802BCD /* Assets.xcassets */,
+				CDCF7AAA225F141400802BCD /* LaunchScreen.storyboard */,
+				CDCF7AAD225F141400802BCD /* Info.plist */,
 			);
-			path = Lab05;
+			path = BusinessValueCalculator;
 			sourceTree = "<group>";
 		};
-		CDF3FF48225C8EEB00781D87 /* Lab05Tests */ = {
+		CDCF7AB5225F141500802BCD /* BusinessValueCalculatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				CDF3FF49225C8EEB00781D87 /* Lab05Tests.swift */,
-				CDF3FF4B225C8EEB00781D87 /* Info.plist */,
+				CDCF7AB6225F141500802BCD /* BusinessValueCalculatorTests.swift */,
+				CDCF7AB8225F141500802BCD /* Info.plist */,
 			);
-			path = Lab05Tests;
+			path = BusinessValueCalculatorTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CDF3FF30225C8EE900781D87 /* Lab05 */ = {
+		CDCF7A9D225F141300802BCD /* BusinessValueCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDF3FF4E225C8EEB00781D87 /* Build configuration list for PBXNativeTarget "Lab05" */;
+			buildConfigurationList = CDCF7ABB225F141500802BCD /* Build configuration list for PBXNativeTarget "BusinessValueCalculator" */;
 			buildPhases = (
-				CDF3FF2D225C8EE900781D87 /* Sources */,
-				CDF3FF2E225C8EE900781D87 /* Frameworks */,
-				CDF3FF2F225C8EE900781D87 /* Resources */,
+				CDCF7A9A225F141300802BCD /* Sources */,
+				CDCF7A9B225F141300802BCD /* Frameworks */,
+				CDCF7A9C225F141300802BCD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Lab05;
-			productName = Lab05;
-			productReference = CDF3FF31225C8EE900781D87 /* Lab05.app */;
+			name = BusinessValueCalculator;
+			productName = BusinessValueCalculator;
+			productReference = CDCF7A9E225F141300802BCD /* BusinessValueCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CDF3FF44225C8EEB00781D87 /* Lab05Tests */ = {
+		CDCF7AB1225F141400802BCD /* BusinessValueCalculatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDF3FF51225C8EEB00781D87 /* Build configuration list for PBXNativeTarget "Lab05Tests" */;
+			buildConfigurationList = CDCF7ABE225F141500802BCD /* Build configuration list for PBXNativeTarget "BusinessValueCalculatorTests" */;
 			buildPhases = (
-				CDF3FF41225C8EEB00781D87 /* Sources */,
-				CDF3FF42225C8EEB00781D87 /* Frameworks */,
-				CDF3FF43225C8EEB00781D87 /* Resources */,
+				CDCF7AAE225F141400802BCD /* Sources */,
+				CDCF7AAF225F141400802BCD /* Frameworks */,
+				CDCF7AB0225F141400802BCD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CDF3FF47225C8EEB00781D87 /* PBXTargetDependency */,
+				CDCF7AB4225F141500802BCD /* PBXTargetDependency */,
 			);
-			name = Lab05Tests;
-			productName = Lab05Tests;
-			productReference = CDF3FF45225C8EEB00781D87 /* Lab05Tests.xctest */;
+			name = BusinessValueCalculatorTests;
+			productName = BusinessValueCalculatorTests;
+			productReference = CDCF7AB2225F141500802BCD /* BusinessValueCalculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CDF3FF29225C8EE900781D87 /* Project object */ = {
+		CDCF7A96225F141300802BCD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = SWUCOMPUTER;
 				TargetAttributes = {
-					CDF3FF30225C8EE900781D87 = {
+					CDCF7A9D225F141300802BCD = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					CDF3FF44225C8EEB00781D87 = {
+					CDCF7AB1225F141400802BCD = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = CDF3FF30225C8EE900781D87;
+						TestTargetID = CDCF7A9D225F141300802BCD;
 					};
 				};
 			};
-			buildConfigurationList = CDF3FF2C225C8EE900781D87 /* Build configuration list for PBXProject "Lab05" */;
+			buildConfigurationList = CDCF7A99225F141300802BCD /* Build configuration list for PBXProject "BusinessValueCalculator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -161,29 +161,29 @@
 				en,
 				Base,
 			);
-			mainGroup = CDF3FF28225C8EE900781D87;
-			productRefGroup = CDF3FF32225C8EE900781D87 /* Products */;
+			mainGroup = CDCF7A95225F141300802BCD;
+			productRefGroup = CDCF7A9F225F141300802BCD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CDF3FF30225C8EE900781D87 /* Lab05 */,
-				CDF3FF44225C8EEB00781D87 /* Lab05Tests */,
+				CDCF7A9D225F141300802BCD /* BusinessValueCalculator */,
+				CDCF7AB1225F141400802BCD /* BusinessValueCalculatorTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CDF3FF2F225C8EE900781D87 /* Resources */ = {
+		CDCF7A9C225F141300802BCD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDF3FF3F225C8EEB00781D87 /* LaunchScreen.storyboard in Resources */,
-				CDF3FF3C225C8EEB00781D87 /* Assets.xcassets in Resources */,
-				CDF3FF3A225C8EE900781D87 /* Main.storyboard in Resources */,
+				CDCF7AAC225F141400802BCD /* LaunchScreen.storyboard in Resources */,
+				CDCF7AA9225F141400802BCD /* Assets.xcassets in Resources */,
+				CDCF7AA7225F141300802BCD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDF3FF43225C8EEB00781D87 /* Resources */ = {
+		CDCF7AB0225F141400802BCD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -193,46 +193,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CDF3FF2D225C8EE900781D87 /* Sources */ = {
+		CDCF7A9A225F141300802BCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDF3FF37225C8EE900781D87 /* ViewController.swift in Sources */,
-				CDF3FF35225C8EE900781D87 /* AppDelegate.swift in Sources */,
+				CDCF7AA4225F141300802BCD /* ViewController.swift in Sources */,
+				CDCF7AA2225F141300802BCD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDF3FF41225C8EEB00781D87 /* Sources */ = {
+		CDCF7AAE225F141400802BCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDF3FF4A225C8EEB00781D87 /* Lab05Tests.swift in Sources */,
+				CDCF7AB7225F141500802BCD /* BusinessValueCalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CDF3FF47225C8EEB00781D87 /* PBXTargetDependency */ = {
+		CDCF7AB4225F141500802BCD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CDF3FF30225C8EE900781D87 /* Lab05 */;
-			targetProxy = CDF3FF46225C8EEB00781D87 /* PBXContainerItemProxy */;
+			target = CDCF7A9D225F141300802BCD /* BusinessValueCalculator */;
+			targetProxy = CDCF7AB3225F141500802BCD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CDF3FF38225C8EE900781D87 /* Main.storyboard */ = {
+		CDCF7AA5225F141300802BCD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CDF3FF39225C8EE900781D87 /* Base */,
+				CDCF7AA6225F141300802BCD /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CDF3FF3D225C8EEB00781D87 /* LaunchScreen.storyboard */ = {
+		CDCF7AAA225F141400802BCD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CDF3FF3E225C8EEB00781D87 /* Base */,
+				CDCF7AAB225F141400802BCD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -240,7 +240,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CDF3FF4C225C8EEB00781D87 /* Debug */ = {
+		CDCF7AB9225F141500802BCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -301,7 +301,7 @@
 			};
 			name = Debug;
 		};
-		CDF3FF4D225C8EEB00781D87 /* Release */ = {
+		CDCF7ABA225F141500802BCD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -356,111 +356,111 @@
 			};
 			name = Release;
 		};
-		CDF3FF4F225C8EEB00781D87 /* Debug */ = {
+		CDCF7ABC225F141500802BCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Lab05/Info.plist;
+				INFOPLIST_FILE = BusinessValueCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = swu.ac.kr.Lab05;
+				PRODUCT_BUNDLE_IDENTIFIER = swu.ac.kr.BusinessValueCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CDF3FF50225C8EEB00781D87 /* Release */ = {
+		CDCF7ABD225F141500802BCD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Lab05/Info.plist;
+				INFOPLIST_FILE = BusinessValueCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = swu.ac.kr.Lab05;
+				PRODUCT_BUNDLE_IDENTIFIER = swu.ac.kr.BusinessValueCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		CDF3FF52225C8EEB00781D87 /* Debug */ = {
+		CDCF7ABF225F141500802BCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Lab05Tests/Info.plist;
+				INFOPLIST_FILE = BusinessValueCalculatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = swu.ac.kr.Lab05Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = swu.ac.kr.BusinessValueCalculatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab05.app/Lab05";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusinessValueCalculator.app/BusinessValueCalculator";
 			};
 			name = Debug;
 		};
-		CDF3FF53225C8EEB00781D87 /* Release */ = {
+		CDCF7AC0225F141500802BCD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Lab05Tests/Info.plist;
+				INFOPLIST_FILE = BusinessValueCalculatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = swu.ac.kr.Lab05Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = swu.ac.kr.BusinessValueCalculatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab05.app/Lab05";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusinessValueCalculator.app/BusinessValueCalculator";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CDF3FF2C225C8EE900781D87 /* Build configuration list for PBXProject "Lab05" */ = {
+		CDCF7A99225F141300802BCD /* Build configuration list for PBXProject "BusinessValueCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDF3FF4C225C8EEB00781D87 /* Debug */,
-				CDF3FF4D225C8EEB00781D87 /* Release */,
+				CDCF7AB9225F141500802BCD /* Debug */,
+				CDCF7ABA225F141500802BCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDF3FF4E225C8EEB00781D87 /* Build configuration list for PBXNativeTarget "Lab05" */ = {
+		CDCF7ABB225F141500802BCD /* Build configuration list for PBXNativeTarget "BusinessValueCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDF3FF4F225C8EEB00781D87 /* Debug */,
-				CDF3FF50225C8EEB00781D87 /* Release */,
+				CDCF7ABC225F141500802BCD /* Debug */,
+				CDCF7ABD225F141500802BCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDF3FF51225C8EEB00781D87 /* Build configuration list for PBXNativeTarget "Lab05Tests" */ = {
+		CDCF7ABE225F141500802BCD /* Build configuration list for PBXNativeTarget "BusinessValueCalculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDF3FF52225C8EEB00781D87 /* Debug */,
-				CDF3FF53225C8EEB00781D87 /* Release */,
+				CDCF7ABF225F141500802BCD /* Debug */,
+				CDCF7AC0225F141500802BCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CDF3FF29225C8EE900781D87 /* Project object */;
+	rootObject = CDCF7A96225F141300802BCD /* Project object */;
 }

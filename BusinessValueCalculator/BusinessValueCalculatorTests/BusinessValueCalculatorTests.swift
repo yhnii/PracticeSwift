@@ -1,15 +1,15 @@
 //
-//  Lab05Tests.swift
-//  Lab05Tests
+//  BusinessValueCalculatorTests.swift
+//  BusinessValueCalculatorTests
 //
-//  Created by SWUCOMPUTER on 09/04/2019.
+//  Created by SWUCOMPUTER on 11/04/2019.
 //  Copyright © 2019 SWUCOMPUTER. All rights reserved.
 //
 
 import XCTest
-@testable import Lab05
+@testable import BusinessValueCalculator
 
-class Lab05Tests: XCTestCase {
+class BusinessValueCalculatorTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
