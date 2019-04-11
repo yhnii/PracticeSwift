@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD94289F225F5B0D00A4D6A7 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD94289E225F5B0D00A4D6A7 /* ResultViewController.swift */; };
 		CDCF7AA2225F141300802BCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCF7AA1225F141300802BCD /* AppDelegate.swift */; };
 		CDCF7AA4225F141300802BCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCF7AA3225F141300802BCD /* ViewController.swift */; };
 		CDCF7AA7225F141300802BCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCF7AA5225F141300802BCD /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD94289E225F5B0D00A4D6A7 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		CDCF7A9E225F141300802BCD /* BusinessValueCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusinessValueCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDCF7AA1225F141300802BCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDCF7AA3225F141300802BCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				CDCF7AA1225F141300802BCD /* AppDelegate.swift */,
 				CDCF7AA3225F141300802BCD /* ViewController.swift */,
+				CD94289E225F5B0D00A4D6A7 /* ResultViewController.swift */,
 				CDCF7AA5225F141300802BCD /* Main.storyboard */,
 				CDCF7AA8225F141400802BCD /* Assets.xcassets */,
 				CDCF7AAA225F141400802BCD /* LaunchScreen.storyboard */,
@@ -199,6 +202,7 @@
 			files = (
 				CDCF7AA4225F141300802BCD /* ViewController.swift in Sources */,
 				CDCF7AA2225F141300802BCD /* AppDelegate.swift in Sources */,
+				CD94289F225F5B0D00A4D6A7 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
