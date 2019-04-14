@@ -15,16 +15,12 @@ class ViewController: UIViewController, UITextFieldDelegate, UIPickerViewDelegat
    
     let listedStatus: [String] = ["상장", "비상장"]
     
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
 
-    
     // option for textField
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
@@ -64,7 +60,5 @@ class ViewController: UIViewController, UITextFieldDelegate, UIPickerViewDelegat
 
         }
     }
-
-
 }
 
