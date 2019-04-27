@@ -33,30 +33,44 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = self.lottoTableView.dequeueReusableCell(withIdentifier: "Lotto Cell", for: indexPath) as! LottoCell
         
-        cell.number1.text = "1"
-        cell.number2.text = "2"
-        cell.number3.text = "3"
-        cell.number4.text = "4"
-        cell.number5.text = "5"
-        cell.number6.text = "6"
+        if lottoArrays.isEmpty == true{
+        cell.number1.text = "0"
+        cell.number2.text = "0"
+        cell.number3.text = "0"
+        cell.number4.text = "0"
+        cell.number5.text = "0"
+        cell.number6.text = "0"
+        }
+        else{
+        cell.number1.text = String(lottoArrays[indexPath.row][0])
+        cell.number2.text = String(lottoArrays[indexPath.row][1])
+        cell.number3.text = String(lottoArrays[indexPath.row][2])
+        cell.number4.text = String(lottoArrays[indexPath.row][3])
+        cell.number5.text = String(lottoArrays[indexPath.row][4])
+        cell.number6.text = String(lottoArrays[indexPath.row][5])
+        }
         
         return cell
-        
     }
     
 
     @IBAction func doDraw(_ sender: UIBarButtonItem) {
+        var index = 0
+        var lottoArray = Array<Int>()
         
-        
-        
-        for i in 0...size{
-            for j in originalNumbers{
-                
+        for _ in 0 ... 3 {
+            for _ in 0 ... 5 {
+                index = Int(arc4random_uniform(UInt32(originalNumbers.count)))
+                lottoArray.append(originalNumbers[index])
+                originalNumbers.remove(at: index)
             }
+            lottoArray.sort(by: {$0 < $1})
+            lottoArrays.append(lottoArray)
         }
         
-        lottoTableView.reloadData()
+    lottoTableView.reloadData()
     }
+    
     
 }
 
