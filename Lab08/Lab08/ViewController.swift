@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     let size:Int = 4
     var lottoArrays = Array<Array<Int>>()
-    var originalNumbers = Array(1 ... 45)
+    var originalNumbers = Array (1 ... 45)
     
     
     @IBOutlet var lottoTableView: UITableView!
@@ -33,7 +33,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = self.lottoTableView.dequeueReusableCell(withIdentifier: "Lotto Cell", for: indexPath) as! LottoCell
         
-        if lottoArrays.isEmpty == true{
+        if lottoArrays.isEmpty {
         cell.number1.text = "0"
         cell.number2.text = "0"
         cell.number3.text = "0"
@@ -58,12 +58,17 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         var index = 0
         var lottoArray = Array<Int>()
         
+        lottoArrays.removeAll()
+        
+        
         for _ in 0 ... 3 {
+            lottoArray.removeAll()
             for _ in 0 ... 5 {
                 index = Int(arc4random_uniform(UInt32(originalNumbers.count)))
                 lottoArray.append(originalNumbers[index])
                 originalNumbers.remove(at: index)
             }
+            originalNumbers = Array (1 ... 45)
             lottoArray.sort(by: {$0 < $1})
             lottoArrays.append(lottoArray)
         }
