@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD8321CF229D494C00C5AA90 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8321CE229D494C00C5AA90 /* CreateViewController.swift */; };
+		CD8321D1229D4FA400C5AA90 /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8321D0229D4FA400C5AA90 /* LogoutViewController.swift */; };
 		CD9555DC229D2C08009D9C9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9555DB229D2C08009D9C9F /* AppDelegate.swift */; };
 		CD9555DE229D2C08009D9C9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9555DD229D2C08009D9C9F /* ViewController.swift */; };
 		CD9555E1229D2C08009D9C9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9555DF229D2C08009D9C9F /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD8321CE229D494C00C5AA90 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		CD8321D0229D4FA400C5AA90 /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
 		CD9555D8229D2C08009D9C9F /* Week12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week12.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9555DB229D2C08009D9C9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD9555DD229D2C08009D9C9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 			children = (
 				CD9555DB229D2C08009D9C9F /* AppDelegate.swift */,
 				CD9555DD229D2C08009D9C9F /* ViewController.swift */,
+				CD8321CE229D494C00C5AA90 /* CreateViewController.swift */,
+				CD8321D0229D4FA400C5AA90 /* LogoutViewController.swift */,
 				CD9555DF229D2C08009D9C9F /* Main.storyboard */,
 				CD9555E2229D2C0B009D9C9F /* Assets.xcassets */,
 				CD9555E4229D2C0B009D9C9F /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			files = (
 				CD9555DE229D2C08009D9C9F /* ViewController.swift in Sources */,
 				CD9555DC229D2C08009D9C9F /* AppDelegate.swift in Sources */,
+				CD8321D1229D4FA400C5AA90 /* LogoutViewController.swift in Sources */,
+				CD8321CF229D494C00C5AA90 /* CreateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
